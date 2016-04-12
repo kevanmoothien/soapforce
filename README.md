@@ -6,25 +6,17 @@
 
 Soapforce is a ruby gem for the [Salesforce SOAP API](http://www.salesforce.com/us/developer/docs/api/index.htm).
 This gem was modeled after the [restforce](https://github.com/ejholmes/restforce) gem and depends on [Savon 2](http://savonrb.com/version2/).
+It has been updated from api 28 to api 36 by [Kevan Moothien](https://github.com/kevanmoothien). 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'soapforce'
-
-Or to get the latest changes from the source:
-
-    gem 'soapforce', :git => "git://github.com/TinderBox/soapforce.git"
+    gem 'soapforce', :git => "git://github.com/kevanmoothien/soapforce.git"
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install soapforce
-
 
 ## Usage
 
